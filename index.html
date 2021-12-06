@@ -3,14 +3,25 @@
     <head>
         <meta charset='utf-8'>
         <title>First-Website</title>
-        <meta name='description' content='width=device-width, initial-scale=1'>
+        <meta name='entering data' content='width=device-width, initial-scale=1'>
     </head>
     <body>
-        <h1>HTML is pretty cool!</h1>
+        <h1 id="title">Welcome to Indausol</h1>
 
-        <p>Hi mom! I did a thing!</p>
+        <p>
+            Please enter name
+            <input id="name" type="text">
+        </p>
+        <p>
+            Click here to see what you entered 
+            <button onclick="sayHello();">
+                button
+            </button> 
+        </p>
 
-        <img src="logo.png" alt="logo" />
+        <div id="content"></div>
 
+
+        <script scr="js/script.js"></script>
     </body>
 </html>
